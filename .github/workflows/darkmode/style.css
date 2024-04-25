@@ -1,28 +1,89 @@
-
-.wrapper__216eb.guilds__2b93a{
-    background-color:black !important;
+@keyframes shimmer-purple{
+    0%{
+        background-image: linear-gradient(135deg,#773a79 , #af11b4);
+    }
+    100%{
+        background-image: linear-gradient(135deg,#da5fdf , #f833ff);
+    }
 }
-  /* Add more specific selectors as needed to ensure visibility */
+.wrapper__216eb.guilds__2b93a{
+    background-color:rgb(40, 34, 85) !important;
+}
+
 nav.container__7e23c{
-    background: black !important;
+    background: rgb(40, 34, 85) !important;
 }
 .chatContent_f087cb{
-    background: black !important;
+    background: rgb(40, 34, 85) !important;
 }
 .members__573eb{
-    background: black !important;
+    background: rgb(40, 34, 85) !important;
 }
 .member_aa4760 {
-    background: black !important;
+    background: rgb(40, 34, 85) !important;
 }
 .title_d4ba1a{
-    background: black !important;
+    background: rgb(40, 34, 85) !important;
 }
 
 .searchBar__5a20a{
     background: #303003 !important;
 }
-/*for the message boc*/
+/*for the message bar*/
 .scrollableContainer_ff917f{
-    background: black !important;
+    background: rgb(40, 34, 85) !important;
+    color: #f833ff;
+}
+.markup_a7e664.editor__66464.slateTextArea_b19976.fontSize24Padding_c4b656{
+    color: rgb(255, 60, 0);
+}
+/*for the searchbar dm thing*?*/
+.privateChannels__9b518{
+    background: rgb(40, 34, 85)!important;
+}
+.scroller__89969.thin_b1c063.scrollerBase_f742b2.fade_ba0fa0{
+    background: rgb(40, 34, 85) !important;
+}
+/*for the scroll selection in dms*/
+.container_debb33{
+    background: rgb(40, 34, 85)(0, 0, 0) !important;
+}
+/*for the dms main selection*/
+.container_bd15da{
+    background: rgb(40, 34, 85);
+    
+}
+/*icon ui thing on dms*/
+.theme-dark.container__26baa.themed_b152d4{
+    background: rgb(40, 34, 85) !important;
+}
+
+.text-sm-normal__95a78.title__4a7a9{
+    color: red !important;
+}
+
+.hoverRoll__3ea9e > *{
+    color: #af11b4;
+}
+.tabBody_a90ea8{
+    background: rgb(40, 34, 85)!important;
+}
+/*content of the message*/
+.markup_a7e664.messageContent_abea64 > span{
+    color: yellow !important;
+}
+.markup_a7e664.messageContent_abea64 > *{
+    color: rgb(140, 255, 32) !important;
+}
+.markup_a7e664.messageContent_abea64 > code{
+    color: lightgreen !important;
+}
+.markup_a7e664.messageContent_abea64 a {
+    color: #901b94 !important;
+}
+.markup_a7e664.messageContent_abea64 em{
+    color: #af11b4 !important;
+}
+.markup_a7e664.messageContent_abea64 strong {
+    color: rgb(98, 77, 255) !important;
 }
