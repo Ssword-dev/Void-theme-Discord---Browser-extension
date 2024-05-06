@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Discord Void theme override",
+    "version": "1.6.3",
+    "description": "Set text color to white and background color to black.",
+    "permissions": [
+      "activeTab"
+    ],
+    "icons": {
+        "110": "void16.png"
+        
+    }
+    ,
+    "content_scripts": [
+      {
+        "matches": ["https://discord.com/*"],
+        "css": ["style.css"]
+      }
+    ]
+  }
+  
